@@ -1,0 +1,18 @@
+{
+    "name": "corebotappinsights",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "http://localhost:3978/api/messages",
+            "id": "d6bbdbf0-891f-11ec-80bd-d1ef41cb2231",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\aslic\\Desktop\\Projet_10\\BotBuilder-Samples-main\\BotBuilder-Samples-main\\samples\\python\\myenv\\corebotappinsights.bot",
+    "overrides": null
+}

@@ -1,0 +1,9 @@
+Flask==1.1.1
+Pillow==9.0.0
+matplotlib==3.4.3
+azureml==0.2.7
+segmentation_models==1.0.1
+tensorflow==2.7.0
+matplotlib==3.4.3
+python-dotenv==0.19.2
+azureml-core==1.37.0.post1

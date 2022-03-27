@@ -1,0 +1,35 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "type": "blob",
+      "direction": "in",
+      "name": "embdg",
+      "dataType": "binary",
+      "path": "clicks/articles_embeddings.pickle",
+      "connection": "MyStorageConnectionAppSetting"
+    },
+    {
+      "type": "blob",
+      "direction": "in",
+      "name": "clicks",
+      "path": "clicks/clicks_reduced.csv",
+      "connection": "MyStorageConnectionAppSetting"
+    }
+  ]
+}
